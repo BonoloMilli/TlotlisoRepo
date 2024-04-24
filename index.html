@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+
+<!--This is my navigation bar-->
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <div class="container-fluid">
+      <i class="fa-brands fa-facebook"></i>
+      <strong id="logo">Facebook</strong>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <form class="d-flex ms-auto">
+          
+          <input class="form-control me-2" type="search" placeholder="Search friends" aria-label="Search">
+          <i class="fa-regular fa-user Ficon"></i>
+          <i class="fa-solid fa-bars icon2" onclick="toggleSidebar()"></i>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" onclick="closeSidebar()"></button>
+  </div>
+  <div class="offcanvas-body">
+    <a href="www.google.com"><strong>Settings</strong></a>
+    <br>
+    <br>
+    <a href="www.google.com"><strong>Contact Consultant</strong></a>
+    <br>
+    <br>
+    <a href="www.google.com"><strong>Switch User</strong></a>
+    <br>
+    <br>
+    <a href="www.google.com"><strong>About</strong></a>
+    <br>
+    <br>
+    <a href="www.google.com"><strong>Options</strong></a>
+    <br>
+    <br>
+    <a href="www.google.com"><strong>Accessibility</strong></a>
+  </div>
+</div>
+
+<img src="backgroundImage.jpg" class="img-fluid" alt="This is my image">
+
+<section class="belt">
+<div class="row  text-center flag" > 
+           <div class="col-2">
+ <i class="fa-solid fa-envelope"></i>
+ 
+           </div>
+             <div class="col-2">
+ <i class="fa-solid fa-house"></i>
+           </div>
+
+  <div class="col-2">
+ <i class="fa-solid fa-truck-fast"></i>
+           </div>
+
+  <div class="col-2">
+ <i class="fa-solid fa-gear"></i>
+           </div>
+
+  <div class="col-2">
+<i class="fa-solid fa-users"></i>
+           </div>
+  <div class="col-2">
+<i class="fa-solid fa-handshake"></i> 
+           </div>
+
+</section>
+
+<div class="row bg-white">
+<div class="col-md-3 ">
+<a href="www.google"><p>Notifications</p></a>
+<br>
+<br>
+<a href="www.google"><p>Mutual Friends</p></a>
+<br>
+<br>
+<a href="www.google"><p>Create Facebook Page</p></a>
+<br>
+<br>
+<a href="www.google"><p>Watch Reels</p></a>
+<br>
+<br>
+
+
+</div>
+<div class="col-md-6">
+
+
+<div class="card custom-card2">
+      <div class="card-body">
+      </textarea>
+      <h5 class="card-title">Upload Picture/post?..</h5>
+      <textarea id="myTextarea" rows="4" cols="50">
+        What do you thinking you can post...
+      </textarea>
+      <div>
+      <a href="#" class="btn btn-primary">Submit Post</a>
+      <a href="#" class="btn btn-primary">Upload Image</a>
+      <br>
+      <br>
+      <br>
+      <image src="userpic.jpg" class="user" alt="This is my image">
+    
+      <h7><strong>Kendrick Lamar</strong> </h7>
+      <br>
+      <br>
+
+      <img src="Post.jpg" class="PostPic" alt="This is my image">
+
+      <br>
+      <h8>Posted 5min ago</h8>
+      <br>
+      <br>
+      <div class="button-container">
+     <button class="like-button">Like</button>
+     <button class="share-button">Share</button>
+     <button class="comment-button">Comment</button>
+    </div>
+    </div>
+
+
+   
+      </div>
+      </div>
+</div>
+
+<div class="col-md-3">
+
+
+     <div class="card custom-card" style="width: 18rem;">
+     <ul class="list-group list-group-flush">
+     <li class="list-group-item"><i class="fa-solid fa-o" style="color: #63E6BE;"></i><span class="text"><strong>Nicole Rsa</strong></span></li>
+     <li class="list-group-item"><i class="fa-solid fa-o" style="color: #63E6BE;"></i><span class="text"><strong>Nathan Lekwelea</strong></span></li>
+     <li class="list-group-item"><i class="fa-solid fa-o" style="color: #63E6BE;"></i><span class="text"><strong>Bongi Thepello</strong></span></li>
+     <li class="list-group-item"><i class="fa-solid fa-o" style="color: #63E6BE;"></i><span class="text"><strong>Naledi Motaung</strong></span></li>
+     <li class="list-group-item"><i class="fa-solid fa-o" style="color: #63E6BE;"></i><span class="text"><strong>Kingslyer Lerryi</strong></span></li>
+     <li class="list-group-item"><i class="fa-solid fa-o" style="color: #63E6BE;"></i><span class="text"><strong>ledia poo Maime</strong></span></li>
+     <li class="list-group-item"><i class="fa-solid fa-o" style="color: #63E6BE;"></i><span class="text"><strong>Pearl Thusi</strong></span></li>
+     <li class="list-group-item"><i class="fa-solid fa-o" style="color: #63E6BE;"></i><span class="text"><strong>Kamogelo Lesiba</strong></span></li>
+     
+      </ul>
+     </div>
+     </div>
+</div>
+</div>
+
+
+
+<div class="container custom-container  ">
+  <div class="row align-items-start">
+    <div class="col">
+       <img src="ProfilePicture.jpg" class="img-thumbnail" alt="This is my Profile">
+       <h1 class="name">Tlotliso</h1>
+    
+    </div>
+    <div class="col">
+   
+
+    </div>
+    <div class="col">
+
+    </div>
+  </div>
+    </div>
+  </div>
+
+<footer>
+
+<a href="www.google">About<a/>
+<br>
+<a href="www.google">Privacy<a/>
+<br>
+<a href="www.google">Terms and conditions<a/>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://kit.fontawesome.com/4b116a597f.js" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha384-klfg7b6bhh31BY7tVFCuB8e4pT7I0Opus1U5UDdR9BeE8s/ChADWuK0HTJKLgGh8" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha384-TBD6EHxWPb+xQd63n/57SwvUp/mWp+M1nPWK7soFB8LpZi+Vvg++R2PAeJhy6N3h" crossorigin="anonymous"></script>
+<script>
+  function toggleSidebar() {
+    var sidebar = document.getElementById("offcanvas");
+    sidebar.classList.toggle("show");
+  }
+
+  function closeSidebar() {
+    var sidebar = document.getElementById("offcanvas");
+    sidebar.classList.remove("show");
+  }
+</script>
+</body>
+</html>
